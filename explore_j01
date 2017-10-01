@@ -2,15 +2,42 @@ This is the explorer journal volume 1
 
 1 General
 1.1 What is this journal?
+1.2 Entries
+
 2 Vim 
 2.1 Vim Introduction
+2.2 The Vim Book
+2.2.0 Citation
+2.2.1 Basic Editing
 
 1. General Issues
 1.1  What is this journal? 
 	This is a journal for me to track ideas I get while I am in exploring mode. I think writing helps me learn and "explore". A side benefit, at least initally is that I am writing this using the Vim editor, and I hope that using Vim will help me learn its features. I am also trying to do the keyboarding without looking at the keyboard. 
+1.2 Entries 
+	1.2.1 September 28, 2017: Today I mostly developed the idea of the explorer journal. I added the Vim section and it's Introduction.
+	1.2.2 September 30, 2017: Today I am adding the "Entries" Section.  
 
 2. Vim Editor
 2.1 Introdution
 	I want to learn to use the Vim editor. The process of creating this journal may help, especially if I write using Vim!
 2.2 The Vim Book
-	Oualline, Steve (2007) The Vim Tutorial and Reference a.k.a. The Vim Book
+	2.2.0 Oualline, Steve (2007) The Vim Tutorial and Reference a.k.a. The Vim Book
+	2.2.1 Basic Editing (Chapter 1)
+		"Basic Editing"	This covers the very very basics. Insert mode ("i"). Normal Mode <Esc>. Left h; Down j; Up k; Right l.
+		I liked the comment "Moving the curser is the most common thing you do in an editor, and those keys are in the home row of the right hand."
+		x deletes; u undo; U undo line; ZZ write and exit; :quit or :q to quit; 
+		"Sightly more complex operations". a appends; dd deletes line; o opens up a new line.
+		"Help" :help for general help; CTRL-] jump to tag; CTRL-T pop tag a.k.a pop a tag off the tag stack;:help subject (where subject could be any subject, e.g. deleting);
+		"Help Special Prefixes"
+			What			Prefix		Example
+			Normal Mode Commands	(nothing) 	:help x
+			Control Character	CTRL-		:help CTRL-u
+			Visual Mode Commands	v_		:help v_d
+			Insert Mode Commands	i_		:help i_<Esc>
+			ex Mode Commands	:		:help :quit
+			Command Line edit       c_		:help c_<Del> 
+			Vim command arguments   -		:help -r
+			Options			`(both ends)	:help `nowrap`
+			Special Keys		enclosed in angle brackets	:help <Up>
+						
+		
