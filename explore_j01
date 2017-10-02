@@ -24,6 +24,7 @@ This is the explorer journal volume 1
 	1.2.1 September 28, 2017: Today I mostly developed the idea of the explorer journal. I added the Vim section and it's Introduction.
 	1.2.2 September 30, 2017: Today I am adding the "Entries" Section. Added Basic Editing section of Vim Book. 
 	1.2.3 October 1, 2017: More Vim Book entries - movements.
+
 2. Vim Editor
 2.1 Introdution
 	I want to learn to use the Vim editor. The process of creating this journal may help, especially if I write using Vim!
@@ -49,7 +50,12 @@ This is the explorer journal volume 1
 		Using "Count" examples: 9k, 3a!, 3x
 	2.2.2 Editing a Little Faster
 		Move one word further w; Move one word back b; Move to end of line $;Move to first charater of line <Home>; Move to first "nonblank" charactor of a line 0; Move to the first "nonblank" character of the line ^; 
-						
+		Move to next letter "n" fn; Move to previous letter "n" F; Move to line "n" nG;	Move to "n" % of the file n%;
+		"Where are you in a file?"
+			:set number - turns on line numbering;:set nonumber - turns off line numbering.
+			CTRl-G displays a status line	
+		"Scrolling Up and Down" 
+			CTRL-U scrolls up a half screen; CTRL-D scrolls down a half screen;
 3 Go Programming Language
 3.1 Introducing Go
 3.1.0 Doxsey, Caleb (2016) Introducing Go
