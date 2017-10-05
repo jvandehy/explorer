@@ -17,6 +17,8 @@ This is the explorer journal volume 1
 3.1.1 Getting Started (Chapter 1)
 3.1.2 Types (Chapter 2)
 
+4 Science Journal
+4.1 Neuroscience
 
 1.1  What is this journal? 
 	This is a journal for me to track ideas I get while I am in exploring mode. I think writing helps me learn and "explore". A side benefit, at least initally is that I am writing this using the Vim editor, and I hope that using Vim will help me learn its features. I am also trying to do the keyboarding without looking at the keyboard. 
@@ -24,6 +26,8 @@ This is the explorer journal volume 1
 	1.2.1 September 28, 2017: Today I mostly developed the idea of the explorer journal. I added the Vim section and it's Introduction.
 	1.2.2 September 30, 2017: Today I am adding the "Entries" Section. Added Basic Editing section of Vim Book. 
 	1.2.3 October 1, 2017: More Vim Book entries - movements.
+	1.2.4 October 2, 2017: more movement procedures in vim
+	1.2.5 October 4, 2017: Neurology Article.
 
 2. Vim Editor
 2.1 Introdution
@@ -66,4 +70,10 @@ This is the explorer journal volume 1
 	Most of Chapter 1 is so basic that I don't feel a need to make too many notes.
 3.1.2 Types (Chapter) 2 notes
 	"Built-in Types" Numbers, Strings,Boooleans.
-		
+	
+
+4 Science
+4.1 Neuroscience	
+4.1.1 Preston, Stephanie (2017) The Rewarding Nature of Social Contact, Science 357, Issue 6358, pg 1353 +
+	- How is the pleasure of social interaction hardwired into the brain?
+	- New research in mice elucidates neural mechanisims underlying social interactions.
