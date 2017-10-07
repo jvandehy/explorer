@@ -30,7 +30,7 @@ This is the explorer journal volume 1
 	1.2.4 October 2, 2017: more movement procedures in vim
 	1.2.5 October 4, 2017: Neurology Article.
 	1.2.6 October 5, 2017: some vim editor notes
-
+	1.2.7 October 6, 2017: vim editor notes
 2. Vim Editor
 2.1 Introdution
 	I want to learn to use the Vim editor. The process of creating this journal may help, especially if I write using Vim!
@@ -55,8 +55,10 @@ This is the explorer journal volume 1
 			Special Keys		enclosed in angle brackets	:help <Up>
 		Using "Count" examples: 9k, 3a!, 3x
 	2.2.2 Editing a Little Faster
-		Move one word further w; Move one word back b; Move to end of line $;Move to first charater of line <Home>; Move to first "nonblank" charactor of a line 0; Move to the first "nonblank" character of the line ^; 
+		Move one word further w; Move one word back b; Move to end of line $;Move to first charater of line <Home>; 
+		Move to first "nonblank" charactor of a line 0; Move to the first "nonblank" character of the line ^; 
 		Move to next letter "n" fn; Move to previous letter "n" F; Move to line "n" nG;	Move to "n" % of the file n%;
+		"Search f vs Search 'til t" the tx (search 'til) command works like the fx commmand, except it stops one charactor before the indicated charactor.
 		"Where are you in a file?"
 			:set number - turns on line numbering;:set nonumber - turns off line numbering.
 			CTRl-G displays a status line	
@@ -66,6 +68,9 @@ This is the explorer journal volume 1
 		"Deleting Text in Visual Mode"a.k.a 'v<move>d'. Use v to get into visual mode, then curser movements to select, and d to delete.
 		This is a good time to practice deletions! It works!
 		"Deleting Text Without Visual Mode a.k.a 'dmotion' " example delete word is dw; delete three words d3w or 3dw.
+		Changing Text and ending in Normal mode d; Changing Text and endins in Insert Mode c.
+		This is a good place to practice with the c command.
+
 3 Go Programming Language
 3.1 Introducing Go
 3.1.0 Doxsey, Caleb (2016) Introducing Go
@@ -73,10 +78,22 @@ This is the explorer journal volume 1
 	Most of Chapter 1 is so basic that I don't feel a need to make too many notes.
 3.1.2 Types (Chapter) 2 notes
 	"Built-in Types" Numbers, Strings,Boooleans.
-	
+	"Numbers"
+		"Bits, Bytes, Runes"
+			1 byte = 8 bits a.k.a uint8
+			1 rune = 32 bits a.k.a uint32	
+	"Strings"
+		"a string is a sequence of characters"
+		"strings are made up of individual bytes"
+		"String Literals"
+			"Double quotes vs back-ticks"				
+
 
 4 Science
 4.1 Neuroscience	
-4.1.1 Preston, Stephanie (2017) The Rewarding Nature of Social Contact, Science 357, Issue 6358, pg 1353 +
+4.1.1 Preston, Stephanie (2017) "The Rewarding Nature of Social Contact", Science 357, Issue 6358, pg 1353 +
 	- How is the pleasure of social interaction hardwired into the brain?
 	- New research in mice elucidates neural mechanisims underlying social interactions.
+4.2 Immunology
+4.1.1 Stubbington, Michael J et all (2017), "Single-cell transcriptomics to explore the immune system in health and disease" Science 358, Vol 6359 pg 58+
+	- 
