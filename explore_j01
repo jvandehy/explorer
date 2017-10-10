@@ -19,6 +19,7 @@ This is the explorer journal volume 1
 
 4 Science Journal
 4.1 Neuroscience
+4.2 Immunology
 
 1.1  What is this journal? 
 	This is a journal for me to track ideas I get while I am in exploring mode.
@@ -31,6 +32,7 @@ This is the explorer journal volume 1
 	1.2.5 October 4, 2017: Neurology Article.
 	1.2.6 October 5, 2017: some vim editor notes
 	1.2.7 October 6, 2017: vim editor notes
+	1.2.8 October 9, 2017: vim first then ....
 2. Vim Editor
 2.1 Introdution
 	I want to learn to use the Vim editor. The process of creating this journal may help, especially if I write using Vim!
@@ -70,6 +72,12 @@ This is the explorer journal volume 1
 		"Deleting Text Without Visual Mode a.k.a 'dmotion' " example delete word is dw; delete three words d3w or 3dw.
 		Changing Text and ending in Normal mode d; Changing Text and endins in Insert Mode c.
 		This is a good place to practice with the c command.
+		"Deleting Lines and ending in Normal mode dd";"Deleting lines and ending in Insert mode cc";
+		"Delete to the end of the line": c$; or d$
+		"The . command" repeats the last delete or change command.
+		"Joining Lines in Visual Mode" start in visual mode, highlight the lines you wish to join, then J
+		"Joining Lines in Normal Mode"
+	
 
 3 Go Programming Language
 3.1 Introducing Go
