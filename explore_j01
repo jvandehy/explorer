@@ -33,6 +33,8 @@ This is the explorer journal volume 1
 	1.2.6 October 5, 2017: some vim editor notes
 	1.2.7 October 6, 2017: vim editor notes
 	1.2.8 October 9, 2017: vim first then ....
+	1.2.9 October 10, 2017: review vim
+	
 2. Vim Editor
 2.1 Introdution
 	I want to learn to use the Vim editor. The process of creating this journal may help, especially if I write using Vim!
@@ -76,8 +78,9 @@ This is the explorer journal volume 1
 		"Delete to the end of the line": c$; or d$
 		"The . command" repeats the last delete or change command.
 		"Joining Lines in Visual Mode" start in visual mode, highlight the lines you wish to join, then J
-		"Joining Lines in Normal Mode"
-	
+		"Joining Lines in Normal Mode" J; 
+			Practice joining	 "alpha subunit" -
+						"beta subunit" 
 
 3 Go Programming Language
 3.1 Introducing Go
@@ -95,6 +98,10 @@ This is the explorer journal volume 1
 		"strings are made up of individual bytes"
 		"String Literals"
 			"Double quotes vs back-ticks"				
+				"Double quoted strings cannot contain newlines AND they allow escape sequences"
+				"Escape sequences" Examples \n \t for new line and tab.
+		len() finds lenght of string; access character at nth index position of generic_string with generic_string[n];
+		concatenate two strings with + operator.
 
 
 4 Science
