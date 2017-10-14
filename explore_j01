@@ -16,6 +16,7 @@ This is the explorer journal volume 1
 3.1.0 Citation
 3.1.1 Getting Started (Chapter 1)
 3.1.2 Types (Chapter 2)
+3.1.3 Variables
 
 4 Science Journal
 4.1 Neuroscience
@@ -81,6 +82,9 @@ This is the explorer journal volume 1
 		"Joining Lines in Normal Mode" J; 
 			Practice joining	 "alpha subunit" -
 						"beta subunit" 
+		"Replacing Characters" r(char) replaces the charactor under the cursor with (char); 
+		"Changing Case" ~ is for changing case; example of count with ~ is 10~.
+		"Marcos" "Keyboard Macros"
 
 3 Go Programming Language
 3.1 Introducing Go
@@ -102,7 +106,32 @@ This is the explorer journal volume 1
 				"Escape sequences" Examples \n \t for new line and tab.
 		len() finds lenght of string; access character at nth index position of generic_string with generic_string[n];
 		concatenate two strings with + operator.
-
+	"Booleans"
+		boolean value is special 1-bit integer type
+		used to represent true and false (or on and off)
+		logical operators
+			&& and
+			|| or
+			!  not
+3.1.3 Variables
+	a variable is a storage location
+	a variable is a storage location
+	a variable is a storage location
+	varible declaration
+		var x string
+	assignment of vaule to variable
+		x = "cat litter"
+	= symbol read as " x is assigned the string "cat litter"
+	the right side of the = is done first and the result is then assigned to the left side of  the =
+		alternate assignment forms
+			+=  example x += y  is same as x = x + y
+			-=
+			*=
+			/=
+			%=
+	declartion and assigment (short form)
+		x := "bad cat"; no type is required
+	scope is the range of places where you are allowed to use a variable.
 
 4 Science
 4.1 Neuroscience	
