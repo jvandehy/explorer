@@ -149,7 +149,13 @@ This is the explorer journal volume 1
 				everything is of type "interface{}"
 				so the parameter "...interface{}" means give me as many arguments of any type as you'd like			
 	package notation 	package.Identifier (example fmt.Println()) "from the package fmt I am using he Printlin func"
-	Identifier		is name of variable, constant, func et cetera.
+	identifier		is name of variable, constant, func et cetera.
+	statement		the smallest standalone element of a program
+				expresses some action to be carried out
+				an instruction that commands the computer to performa specified action
+				a program is formed by one or more statements
+	expression		a combination of one or more explict values, constants, vaariables, operators, and functions
+					that the programming language interprets and compute to produce another value. 
 	
 4 Science
 4.1 Neuroscience	
