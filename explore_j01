@@ -156,7 +156,8 @@ This is the explorer journal volume 1
 				example		for i := 1; i <= 10; i++ {
 							fmt.Println(i)
 						}
-	if statement
+	if statement  	if  conditional statement    block (executed only if condition is true) skipped if false.
+			
 3.2 McCloud, Todd (2017) Learn How to Code Google's Go Programming Language Course Outline
 3.2.1 Course Overviev
 3.2.2 Variables Values & Type
