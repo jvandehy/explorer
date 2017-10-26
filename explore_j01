@@ -46,6 +46,7 @@ This is the explorer journal volume 1
 	1.2.10 October 14, 2017: some more vim and golang
 	1.2.11 October 15, 2017: vim recording Macros - had trouble!; Doxsey started control structures.
 	1.2.12 October 23, 2017: Doxsey book re switch statements
+	1.2.13 October 25, 2017: Doxsey switch
 	
 2. Vim Editor
 2.1 Introdution
@@ -178,7 +179,7 @@ This is the explorer journal volume 1
 						case 2: fmt.Println("Two")
 						default: fmt.Println("Unkown")
 						}
-:wq!
+
 
 
 3.2 McCloud, Todd (2017) Learn How to Code Google's Go Programming Language Course Outline
